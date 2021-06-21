@@ -11,7 +11,19 @@
       3 - handles 0 as arguments
       4 - returns 0 if any of the arguments in not a number
  */
-const add = () => {};
+      const add = (a = 0, b = 0) => {
+        if((typeof a !== 'number') || (typeof b !== 'number')){
+          return 0;
+        }
+        if(isNaN(a)){
+            return 0;
+          }else if (isNaN(b)){
+            return 0;
+          }else {
+            return a + b;
+          }
+      };
+      
 /*
   * Write a program that prints the numbers. 
       1 - numbers multiples of three prints “Fizz” instead of the number 

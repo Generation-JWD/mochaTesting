@@ -1,0 +1,25 @@
+{
+  "name": "mochatesting",
+  "version": "1.0.0",
+  "description": "Debrief Activity",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Generation-JWD/mochaTesting.git"
+  },
+  "author": "Antonio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Generation-JWD/mochaTesting/issues"
+  },
+  "homepage": "https://github.com/Generation-JWD/mochaTesting#readme",
+  "devDependencies": {
+    "mocha": "^9.0.1"
+  }
+}
